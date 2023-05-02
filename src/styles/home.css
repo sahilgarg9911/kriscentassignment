@@ -1,0 +1,51 @@
+.homediv {
+    width: 95%;
+    /* border: 1px solid red; */
+    margin: 30px;
+    padding: 30px;
+    margin-left: 50px;
+}
+
+.imgs {
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.slidediv {
+    margin-bottom: 40px;
+}
+
+.contactus {
+    margin-top: 40px;
+}
+
+.servicesdiv {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.typesofservices {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.Empowering {
+    margin-bottom: 30px;
+}
+
+.WhatWeDo {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.vision {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.readyto {
+    margin-bottom: 30px;
+}
