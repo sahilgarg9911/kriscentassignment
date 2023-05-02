@@ -11,31 +11,19 @@ import { Route, Routes, BrowserRouter } from 'react-router-dom';
 
 
 function App() {
-    return (
-
-        <
-        BrowserRouter >
-        <
-        Header / >
-        <
-        Routes >
-        <
-        Route path = '/'
-        element = { < Home / > }
-        /> <
-        Route path = '/about'
-        element = { < About / > }
-        /> <
-        Route path = '/services'
-        element = { < Service / > }
-        /> <
-        Route path = '/contact'
-        element = { < Contact / > }
-        /> <
-        /Routes> <
-        /BrowserRouter>
-
-    );
+  return (
+  
+<BrowserRouter>
+      <Header />
+      <Routes>
+      <Route path='/' element={<Home />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/services' element={<Service />} />
+        <Route path='/contact' element={<Contact />} />
+      </Routes>
+    </BrowserRouter>
+  
+  );
 }
 
 export default App;
